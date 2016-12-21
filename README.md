@@ -1,15 +1,15 @@
 # Binary search trees for Node.js
-
+**This fork adds RN Support**
 **Note: this module is not actively maintained bar for bug fixes. Its primary use is within NeDB and I do not plan on adding any new features.**
 
 Two implementations of binary search tree: <a href="http://en.wikipedia.org/wiki/Binary_search_tree" target="_blank">basic</a> and <a href="http://en.wikipedia.org/wiki/AVL_tree" target="_blank">AVL</a> (a kind of self-balancing binmary search tree). I wrote this module primarily to store indexes for <a href="https://github.com/louischatriot/nedb" target="_blank">NeDB</a> (a javascript dependency-less database).
 
 
 ## Installation and tests
-Package name is `binary-search-tree`.
+Package name is `nedb-binary-search-tree`.
 
 ```bash
-npm install binary-search-tree --save
+npm install nedb-binary-search-tree --save
 
 make test
 ```
