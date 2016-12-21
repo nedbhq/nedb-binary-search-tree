@@ -20,8 +20,8 @@ The API mainly provides 3 functions: `insert`, `search` and `delete`. If you do 
 Values inserted can be anything except `undefined`.
 
 ```javascript
-var BinarySearchTree = require('binary-search-tree').BinarySearchTree
-  , AVLTree = require('binary-search-tree').AVLTree   // Same API as BinarySearchTree
+var BinarySearchTree = require('nedb-binary-search-tree').BinarySearchTree
+  , AVLTree = require('nedb-binary-search-tree').AVLTree   // Same API as BinarySearchTree
 
 // Creating a binary search tree
 var bst = new BinarySearchTree();
